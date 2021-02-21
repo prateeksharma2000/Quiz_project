@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  background-color: #f6f5f5;
+}
+h1{
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 6rem;
+  background-color: #d3e0ea;
+  margin: 0;
+  padding: 64px 0 64px 0;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.score
+{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+}
+.container
+{
+  height: 100%;
+  text-align: center;
+  padding: 5rem;
+}
+.ques{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 2rem 0 2rem 0;
+  font-size: 2rem;
+}
+.align{
+  padding: 7rem;
+  width: 100px;
+}
+.correct{
+  background-color: green;
+  opacity: 0.5;
+}
+.wrong{
+  background-color: red;
+  opacity: 0.5;
+}
+.options{
+  margin: 2rem 3rem 0 0;
+}
+.next{
+  /* margin-top: 5rem;
+  margin-right: 55px; */
+  position: absolute;
+  top: 330px;
+  right: 400px;
+}
